@@ -1,0 +1,87 @@
+body {
+    background-image: url("./90s.gif");
+}
+
+/* #nav {
+    width: 100vmax;
+    padding-left: 10em;
+    background-color: deeppink;
+    height: 2em;
+    
+} */
+
+#navbar {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: deeppink;
+    height: 1em;
+    padding: 1em;
+    font-size: 1.5em;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+li {
+    display: block;
+    float: left;
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#phat {
+    height: 100px;
+}
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+}
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#links {
+    width: 30vw;
+    border-style: ridge;
+    border-color: silver;
+    border-width: thick;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.about {
+    color: white;
+    /* display: flex;
+    justify-content: center; */
+
+
+}
+#divider {
+    width: 100vw;
+}
+
+footer {
+
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        background-color: deeppink;
+        height: 1em;
+        padding: 1em;
+        font-size: 1.5em;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+}
