@@ -1,5 +1,7 @@
 body {
     background-image: url("./90s.gif");
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+
 }
 
 /* #nav {
@@ -22,7 +24,7 @@ body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-li {
+navbar li {
     display: block;
     float: left;
 }
@@ -53,12 +55,14 @@ h1 {
 }
 
 #links {
-    width: 30vw;
+    /* width:45vw; */
+    /* margin-left: 33vw; */
     border-style: ridge;
     border-color: silver;
     border-width: thick;
     color: white;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    height: fit-content;
 }
 
 .about {
@@ -84,4 +88,9 @@ footer {
         font-size: 1.5em;
         font-family: "Comic Sans MS", "Comic Sans", cursive;
     
+}
+
+#inlinks {
+    align-items: center;
+    color: deeppink;
 }
